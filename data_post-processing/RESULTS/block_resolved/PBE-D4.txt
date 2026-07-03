@@ -1,0 +1,9 @@
+Block-resolved error statistics
+All values in kcal/mol
+
+BLOCK                     sMSE      sMAE     sRMSE       STD
+------------------------------------------------------------
+s-block                    1.9       2.2       2.8       2.1
+p-block (light)            3.2       3.3       4.1       2.7
+p-block (heavy)            3.2       3.3       4.0       2.4
+transition metals          4.6       4.6       5.4       2.8
