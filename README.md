@@ -10,23 +10,22 @@
 
 The dataset contains **2097 closed-shell, single-reference molecular systems** organized into **67 element-centered subsets**. It covers molecules with up to **50 atoms**, including neutral, cationic, and anionic species, and provides high-level coupled cluster reference data for total atomization energies (TAEs).
 
-TAE-PTComp is intended for benchmarking, validation, and development of approximate electronic-structure methods, including density functional approximations, semi-empirical quantum mechanical methods, and machine-learning interatomic or molecular energy models.
+TAE-PTComp is intended for benchmarking, validation, and development of approximate electronic structure methods, including density functional approximations, semi-empirical quantum mechanical methods, and machine-learning interatomic or molecular energy models.
 
 ---
 
-## Dataset at a glance
+## Data set at a glance
 
 | Quantity | Description |
 | --- | --- |
 | Target property | Total atomization energy (TAE) |
-| Reference level | PNO-LCCSD(T*)-F12 coupled cluster reference energies |
+| Reference level | PNO-LCCSD(T*)-F12/TIGHT/aVQZ' coupled cluster reference energies |
 | Systems | 2097 molecules |
 | Element-centered subsets | 67 |
-| Average subset size | 31 structures per element on average |
+| Average subset size | 31 structures per element |
 | Molecular size | Up to 50 atoms |
 | Charge states | Neutral, cationic, and anionic systems (`0`, `+1`, `-1`) |
 | Chemical space | Covalent and coordinative compounds, noncovalently bound clusters, crystal cut-outs, atomic clusters, and selected “mindless” structures |
-| Main analysis metric | Scaled TAE, `sTAE = TAE / N_atoms` |
 
 The benchmark can be analyzed either in terms of the 67 element-resolved subsets or in terms of four broader periodic-table regions:
 
@@ -63,6 +62,8 @@ The benchmark can be analyzed either in terms of the 67 element-resolved subsets
 │   ├── .corresponding_element
 │   ├── ALL_OUT/
 │   └── RESULTS/
+├── doc/
+│   └── PTComp_overview.svg
 ├── LICENSE.txt
 └── README.md
 ```
