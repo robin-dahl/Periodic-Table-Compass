@@ -2,6 +2,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
 
+<p align="center">
+  <img src="doc/PTComp_overview.svg" alt="Graphical abstract for TAE-PTComp" width="850">
+</p>
+
 **TAE-PTComp** is an element-resolved total atomization energy benchmark designed to probe the transferability of quantum chemical methods across a broad region of the periodic table.
 
 The dataset contains **2097 closed-shell, single-reference molecular systems** organized into **67 element-centered subsets**. It covers molecules with up to **50 atoms**, including neutral, cationic, and anionic species, and provides high-level coupled cluster reference data for total atomization energies (TAEs).
