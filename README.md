@@ -105,17 +105,17 @@ The directory `RAW_DATA/` contains the publication reference data in spreadsheet
 
 The target quantity is the electronic total atomization energy. For a neutral molecule,
 
-```text
-A_a B_b C_c → a A + b B + c C
-```
+$$
+\mathrm{A}_a\mathrm{B}_b\mathrm{C}_c \rightarrow a\,\mathrm{A} + b\,\mathrm{B} + c\,\mathrm{C}
+$$
 
 For charged systems, ionic atomization reactions are defined explicitly so that the molecular charge is assigned to an atomic fragment according to the reaction protocol described in the associated paper. The provided atomic reference energies and reaction definitions should be used consistently when benchmarking new methods.
 
 For statistical analyses, we recommend using the scaled atomization energy,
 
-```text
-sTAE_i = TAE_i / N_atoms,i
-```
+$$
+\mathrm{sTAE}_i = \frac{\mathrm{TAE}_i}{N_{\mathrm{atoms},i}}
+$$
 
 and the corresponding scaled error statistics. This avoids global error measures being dominated by the largest molecules in the benchmark.
 
@@ -148,17 +148,11 @@ cd data_post-processing
 python analyze.py all
 ```
 
-The script writes results to:
+The script writes results to
 
 ```text
 data_post-processing/RESULTS/element_resolved/
 data_post-processing/RESULTS/block_resolved/
-```
-
-The reported statistics are based on signed scaled deviations,
-
-```text
-scaled deviation = (method TAE - reference TAE) / N_atoms
 ```
 
 and include:
