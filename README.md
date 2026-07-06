@@ -63,7 +63,7 @@ The benchmark can be analyzed either in terms of the 67 element-resolved subsets
 │   ├── ALL_OUT/
 │   └── RESULTS/
 ├── doc/
-│   └── PTComp_overview.svg
+│   └── PTComp_overview.png
 ├── LICENSE.txt
 └── README.md
 ```
