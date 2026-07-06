@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.txt)
 
 <p align="center">
-  <img src="doc/PTComp_overview.svg" alt="Graphical abstract for TAE-PTComp" width="850">
+  <img src="doc/PTComp_overview.png" alt="Graphical abstract for TAE-PTComp" width="850">
 </p>
 
 **TAE-PTComp** is an element-resolved total atomization energy benchmark designed to probe the transferability of quantum chemical methods across a broad region of the periodic table.
