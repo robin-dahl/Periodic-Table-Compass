@@ -106,7 +106,7 @@ The directory `RAW_DATA/` contains the publication reference data in spreadsheet
 The target quantity is the electronic total atomization energy. For a neutral molecule,
 
 $$
-\mathrm{A}_a\mathrm{B}_b\mathrm{C}_c \rightarrow a\,\mathrm{A} + b\,\mathrm{B} + c\,\mathrm{C}
+\mathrm{A}_a\mathrm{B}_b\mathrm{C}_c \rightarrow a\mathrm{A} + b\mathrm{B} + c\mathrm{C}
 $$
 
 For charged systems, ionic atomization reactions are defined explicitly so that the molecular charge is assigned to an atomic fragment according to the reaction protocol described in the associated paper. The provided atomic reference energies and reaction definitions should be used consistently when benchmarking new methods.
